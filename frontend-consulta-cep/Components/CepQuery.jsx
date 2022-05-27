@@ -43,7 +43,7 @@ const CepQuery = () => {
           pattern="[0-9]{8}" // Gera um aviso ao usuário caso o CEP não seja válido
           name="cep"
           id="cep"
-          placeholder="Digite seu CEP"
+          placeholder="Digite o CEP aqui"
           value={cep}
           onChange={handleChange}
         />
