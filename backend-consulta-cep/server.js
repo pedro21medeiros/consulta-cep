@@ -20,5 +20,5 @@ app.get('/', (req, res) => {
     .catch(err => {
       res.send(err);
       console.log(err);
-    })
+    });
 });

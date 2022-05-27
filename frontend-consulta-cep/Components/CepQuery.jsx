@@ -18,7 +18,6 @@ const CepQuery = () => {
       fetch(`http://localhost:3001/?cep=${cep}`)
         .then((res) => res.json())
         .then((data) => {
-          console.log(data);
           setCity(data.city);
           setStreet(data.address);
           setDistrict(data.district);
@@ -41,7 +40,7 @@ const CepQuery = () => {
         <input
           type="text"
           required="required"
-          pattern="[0-9]{8}"
+          pattern="[0-9]{8}" // Gera um aviso ao usuário caso o CEP não seja válido
           name="cep"
           id="cep"
           placeholder="Digite seu CEP"
