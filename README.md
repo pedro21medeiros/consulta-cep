@@ -26,7 +26,7 @@ Para realizar esse projeto, foi utilizado:
 ## Deploy:
 
 Realizei o deploy da aplicação utilizando Vercel.
-- Dá pra checar o funcionamento da aplicação no link https://consulta-cep-one.vercel.app/ ou clicando na imagem abaixo: <a href="https://consulta-cep-one.vercel.app/" target="blank"><img src="./app-vercel.png" alt="app">
+- Dá pra checar o funcionamento da aplicação no link https://consulta-cep-one.vercel.app/ ou clicando na imagem abaixo: <a href="https://consulta-cep-one.vercel.app/" target="blank"><img src="./app-vercel.png" alt="app" /></a>
 
 
 
