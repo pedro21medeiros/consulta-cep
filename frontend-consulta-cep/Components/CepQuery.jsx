@@ -32,7 +32,6 @@ const CepQuery = () => {
         })
         .catch((err) => setError(err.message));
   };
-  
 
   return (
     <div>
