@@ -1,24 +1,10 @@
 const express = require('express');
-const cors = require('cors');
-const { default: fetch } = require('node-fetch');
 const app = express();
+const getAddress = require('./getAddress');
 const PORT = process.env.PORT || 3001;
 
-app.use(cors());
+app.use(express.json({ extended: false }));
 
-app.listen(PORT, () => {
-  console.log(`Server is listening on port ${PORT}`);
-});
+app.use('/', getAddress);
 
-app.get('/', (req, res) => {
-  const { cep } = req.query;
-  fetch(`https://ws.apicep.com/cep.json?code=${cep}`)
-    .then(res => res.json())
-    .then(data => {
-      res.send(data);
-    })
-    .catch(err => {
-      res.send(err);
-      console.log(err);
-    });
-});
+app.listen(PORT, () => console.log(`Server started on port ${PORT}`));

@@ -15,7 +15,7 @@ const CepQuery = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
       setError('');
-      fetch(`http://localhost:3001/?cep=${cep}`)
+      fetch(`https://ws.apicep.com/cep.json?code=${cep}`)
         .then((res) => res.json())
         .then((data) => {
           setCity(data.city);
