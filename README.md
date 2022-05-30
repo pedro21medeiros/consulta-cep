@@ -9,7 +9,6 @@ Já o backend, foi criado em NodeJS, utilizando o Express para iniciar o servido
 - Responde o endereço para um CEP digitado;
 - Verificação para exigir que sejam enviados 8 números;
 - Proíbe o envio caso o valor digitado no input não seja no formato exigido;
-- É possível editar o conteúdo de cada item da tabela;
 - Retorna "CEP não encontrado" quando é digitado um CEP inexistente;
 
 ## Tecnologias:
@@ -27,9 +26,9 @@ Para realizar esse projeto, foi utilizado:
 ## Deploy:
 
 Realizei o deploy da aplicação utilizando Vercel.
-- Dá pra checar o funcionamento da aplicação no link https://consulta-cep-one.vercel.app/
+- Dá pra checar o funcionamento da aplicação no link <a href="https://consulta-cep-one.vercel.app/" target="blank"><img src="./app-vercel.png" alt="app">
 
-<img src="./app-vercel" alt="app">
+
 
 ## Instalação e utilização local:
 
@@ -43,7 +42,6 @@ Para instalar e utilizar esse projeto localmente você precisa:
 - Acessar o diretório backend do projeto, `cd backend-consulta-cep`;
 - Instalar as dependências do backend com `npm install`;
 - Iniciar o servidor com o comando `node server.js`;
-
 Agora, ao abrir o http://localhost:3000/, você verá a aplicação funcionar localmente.
 
 
