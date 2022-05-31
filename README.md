@@ -42,6 +42,7 @@ Para instalar e utilizar esse projeto localmente você precisa:
 - Acessar o diretório backend do projeto, `cd api`;
 - Instalar as dependências do backend com `npm install`;
 - Iniciar o servidor com o comando `node server.js`;
+
 Agora, ao abrir o http://localhost:3000/, você verá a aplicação funcionar localmente.
 
 
