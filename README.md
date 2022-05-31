@@ -39,7 +39,7 @@ Para instalar e utilizar esse projeto localmente você precisa:
 - Instalar as dependências do frontend com `npm install`;
 - Iniciar a aplicação React com o comando `npm run dev`;
 - Voltar para o diretório do projeto com o comando `cd ..`;
-- Acessar o diretório backend do projeto, `cd backend-consulta-cep`;
+- Acessar o diretório backend do projeto, `cd api`;
 - Instalar as dependências do backend com `npm install`;
 - Iniciar o servidor com o comando `node server.js`;
 Agora, ao abrir o http://localhost:3000/, você verá a aplicação funcionar localmente.
